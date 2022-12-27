@@ -1,0 +1,20 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.custom-select {
+    display: block;
+    padding: 10px;
+    border: 1px solid rgb(214, 207, 207);
+    border-radius: 5px;
+    font-family: $main-font;
+    color: black;
+    font-size: 15px;
+
+    & option {
+        font-family: $main-font;
+        color: black;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,41 @@
+.header {
+    padding: 30px;
+    background-color: rgb(238, 232, 232);
+    border-bottom: 1px solid grey;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navigation__link {
+    font-family: $main-font;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+
+    &:hover {
+        color: #00B1FF;
+    }
+
+    &.active {
+        color: #00B1FF;
+    }
+
+    &-error {
+        display: block;
+        text-align: center;
+    }
+
+    @media (min-width: 500px) {
+        font-size: 25px;
+    }
+}
